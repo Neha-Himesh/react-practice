@@ -1,23 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
+import FormUseState from './components/FormUseState';
+import FormUseReducer from './components/FormUseReducer';
+import TogglePassword from './components/TogglePassword';
+import TogglePasswordUseReducer from './components/TogglePasswordUseReducer';
+import ToDoList from './components/ToDoList';
+import ToDoListReducer from './components/ToDoListReducer';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <ToDoListReducer />
     </div>
   );
 }
