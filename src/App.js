@@ -6,11 +6,13 @@ import TogglePassword from './components/TogglePassword';
 import TogglePasswordUseReducer from './components/TogglePasswordUseReducer';
 import ToDoList from './components/ToDoList';
 import ToDoListReducer from './components/ToDoListReducer';
+import ActiveTab from './components/ActiveTab';
+import ActiveTabUseReducer from './components/ActiveTabUseReducer';
 
 function App() {
   return (
     <div className="App">
-    <ToDoListReducer />
+    <ActiveTabUseReducer />
     </div>
   );
 }
